@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    margin-bottom: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif; 
+    background-color: black;
+   }
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: black;
+  }
+  .fa {
+    padding: 20px;
+  font-size: 26px;
+  width: 63px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-github{
+    font-size: 60px;
+    background: white;
+  }
+  .fa-envelope{
+    font-size: 38px;
+    background: white;
+  }
+  .fa-phone{
+    font-size: 38px;
+    background: white;
+  }
+nav ul{
+    list-style-type: none;
+    color: white;
+    
+  }
+   a:link{
+    text-decoration: none;
+    color: white;
+  }
+  a:visited{
+    color: white;
+  }
+  a:hover{
+    background-color: darkgrey;
+  }
+nav li{
+    display: inline;
+    margin-left: 20rem;
+    font-size: 1.5rem;
+    padding: auto;
+    text-align: center;
+    flex-direction: row-reverse; 
+  }
+  #welcome-section{
+    background-color: lightskyblue;
+    width: 1735px;
+    height: 815px;
+    text-align: center;
+  }
+#projects{
+    background-color: lightcoral;
+    width: 1735px;
+    height: 815px;
+}
+#contact-section{
+    background-color: lightsteelblue;
+    width: 1735px;
+    height: 650px;
+    text-align: center;
+}
+#core{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+#cc ul{
+    list-style: none;
+}
+.fr{
+    display: inline;
+    text-align: left;
+    font-size: 0.2rem;
+    background-color: black;
+    margin-top: 5px;
+    padding-top: 0.5rem;
+}
+.card {
+  box-shadow: 0 4px 8px 0 orangered;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-top: 6rem;
+}
+img{
+  height: 250px;
+  
+}
+#Landing{
+  margin-left: 28rem;
+}
+#Portfolio{
+  margin-left: 22rem;
+}
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+.row {margin: 0 -5px;}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#fp{
+    display: block;
+    text-align: left;
+    padding-left: 22rem;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+    padding-right: 0;
+    color: white;
+}
+h1{
+    color: red;
+    padding-top: 5em;
+    font-size: 4rem;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+iframe {
+    border: 2px solid black;
+    
+}
+#contact-section{
+    font-size: 1.7rem;
+    text-align: center;
+    padding-top: 2.9em;
+}
+#contact-section p{
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+}
+#contact-section h2{
+    padding-bottom: 0;
+}
+#icons {
+    padding-top: 2rem;
+}
+#icons a{
+    color: black;
+}
+@media only screen and (max-width: 720px){
+    #projects{
+     
+    }
+  }

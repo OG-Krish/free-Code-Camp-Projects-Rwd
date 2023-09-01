@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif; 
+   }
+  header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: black;
+  }
+  #header-img{
+    margin-top: 0.8rem;
+  }
+  nav ul{
+    list-style-type: none;
+    color: white;
+    
+  }
+  a:link{
+    text-decoration: none;
+    color: white;
+  }
+  a:visited{
+    color: white;
+  }
+  a:hover{
+    background-color: darkgrey;
+  }
+  nav li{
+    display: inline;
+    margin-left: 20rem;
+    font-size: 1.5rem;
+    padding: auto;
+    text-align: center;
+    flex-direction: row-reverse;
+    
+  }
+  #Features{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+  .features h2, p{
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.3rem;
+  }
+  .features h2{
+    color: violet;
+    font-size: 2.5rem;
+  }
+  #Demo{
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .usp2{
+    color: violet;
+  }
+  .usp3{
+    color: olivedrab;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    max-width: 280px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+  }
+  .row {margin: 0 -5px;}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: rgb(1, 4, 22);
+    background-color: #e0d7e6;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(43, 44, 48);
+    font-size: 1.1rem;
+    height: 3rem;
+  }
+
+  footer ul{
+    list-style-type: none;
+    padding: auto;
+    margin-top: 0.4rem;
+    margin-bottom: 0;
+  }
+  footer li{
+    display: flex;
+    display: inline;
+    padding-left: 20rem;
+    padding-bottom: 0;
+    text-align: center;
+  }
+  footer p{
+    text-align: center;
+    font-size: 0.6rem;  
+  }
+
+
+
+  @media only screen and (max-width: 720px){
+    #Features h2{
+      font-size: 1.5rem; 
+    }
+  }
